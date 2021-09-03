@@ -1,0 +1,51 @@
+`<!DOCTYPE html>
+<html>
+<body>
+<head>
+   <link rel="stylesheet" href="dairy.php">
+<style>
+body {
+  background-image: url("https://media.istockphoto.com/photos/magic-book-picture-id147289491?k=20&m=147289491&s=612x612&w=0&h=NulGpGrk0YRpam_GMzf9vqfXRSR3xwlmP6u1XObUpyw=");
+}
+h1 {
+ color: white;
+ text-align: center;
+}
+h3{
+color: white;
+ text-align: center;
+}
+p {
+color: white;
+ text-align: center;
+}
+form {
+color: white;
+ text-align: center;
+}
+</style>
+</head>
+
+
+<h1><b>SECRET DAIRY</b></h1>
+<h3>Store your thoughts permanently and securely</h3>
+ <p>Intrested?  Sign up now</p>
+<form>
+  <label for="email"></label>
+  <input type="email" id="email" name="email" placeholder="Your E-mail" required><br>
+ <label for="pwd"></label><br>
+  <input type="password" id="pwd" name="pwd" placeholder="Password" required><br><br>
+<input type="checkbox" id=" " name=" " value=" ">
+<label for="stay logged in"> Stay logged in</label><br><br>
+<button type="button" class="btn btn-success">sign up!</button>
+<br>
+<br>
+<button type="button" class="btn btn-link">log in</button>
+
+
+</form>
+
+
+
+</body>
+</html>
